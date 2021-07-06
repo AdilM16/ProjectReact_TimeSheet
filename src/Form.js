@@ -57,16 +57,17 @@ export default class Form extends Component {
     render() {
         return (
             <div className='my-5'>
-                <div className="ntm blur displayno justify-content-center flex-column " >
+               
+                <div className="ntm blur displayno justify-content-center flex-column" >
                     <button className='clear' onClick={this.ftg}>X</button>
                     <label>Nom Tâche :</label>
                     <input placeholder="Nom" className="myInput myNom"></input>
                     <label>Date:</label>
-                    <input placeholder="Date" className="myInput myDate"></input>
+                    <input placeholder="Date" type="date" className="myInput myDate"></input>
                     <label>heure debut:</label>
-                    <input placeholder="20h00" className="myInput myHeureDebut"></input>
+                    <input placeholder="20h00" type="time" className="myInput myHeureDebut"></input>
                     <label>heure fin :</label>
-                    <input placeholder="21h00" className="myInput myHeureFin"></input>
+                    <input placeholder="21h00" type="time" className="myInput myHeureFin"></input>
                     <div className="d-flex justify-content-center w-50">
                         <button className="ok btn-grad my-3" onClick={this.ok}>ok</button>
                     </div>
