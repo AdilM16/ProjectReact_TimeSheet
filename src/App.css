@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.wiid{
+  width: max-content;
+  margin:10px auto;
+}
+.aka1{
+  width: max-content !important;
+  border-radius: 20px!important;
+  background: rgb(89, 166, 192);
+  box-shadow: 0 0 0 0 #000;
+  animation: pulse 1.3s infinite;
+}
+.aka:hover{
+  filter: brightness(70%);
+}
+.aka1:hover{
+  filter: brightness(70%);
+}
+.aka2:hover{
+  filter: brightness(70%);
+}
+.displayno{
+  display: none;
+}
+.displayyes{
+  display: block;
+}
+.ntm{
+  align-items: center;
+  width: 100%;
+  
+}
+.tresflex{
+  display: flex;
+}
+input{
+  width: 50%;
+}
+.ok{
+  width: 30px;
+}
+.clear{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import Ajouter from './Ajouter';
+import Form from './Form';
+import TimeSheet from './TimeSheet';
+import NavBar from './components/navbar/NavBar';
+import '@fortawesome/fontawesome-svg-core'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <NavBar />
+        <Form />
+        <div className="parent">
+          <TimeSheet />
+        </div>
+      <div className='wiid'>
+        <Ajouter />
+      </div>
     </div>
   );
 }

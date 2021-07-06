@@ -1,0 +1,32 @@
+.bgTimeSheet{
+    width: 80%;
+    margin: auto;
+    background: 100% white;
+}
+.col{
+    padding: 0;
+    border: solid 1px grey;
+}
+.row{
+    --bs-gutter-x:0;
+}
+.parent{
+    width: 100%;
+}
+.blur{
+    filter: blur(0);
+    border: solid 1px black;
+    box-shadow:  0px 3px 3px rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 35%;
+    margin: 10px auto;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 350px;
+    padding: 1%;
+    z-index: 3;
+}
+.bgBlur{
+    filter: blur(10px);
+}
